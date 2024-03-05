@@ -8,18 +8,10 @@ public class Esercizio1 {
     }
 
     public static boolean stringaPariDispari(String word){
-        if (word.length() % 2 == 0 ) {
-            return true;
-        } else {
-            return false;
-        }
+        return word.length() % 2 == 0;
     }
 
     public static boolean annoBisestile(int year){
-        if(year % 4 == 0){
-            return true;
-        } else {
-            return false;
-        }
+        return year % 4 == 0;
     }
 }
