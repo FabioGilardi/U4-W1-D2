@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Esercizio4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("inserisci un numero intero");
+        System.out.println("Inserisci un numero intero");
         int userNum = scanner.nextInt();
         printCountdown(userNum);
         scanner.close();
